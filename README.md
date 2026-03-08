@@ -27,11 +27,20 @@ DSPy is a framework for building AI systems with language models. This notebook 
    ```bash
    pip install -U dspy
    ```
-3. Set your API key:
-   ```python
-   import os
-   os.environ['OPENAI_API_KEY'] = 'your-api-key-here'
-   ```
+3. Set your API key (choose your provider):
+
+**OpenAI:**
+```python
+import os
+os.environ['OPENAI_API_KEY'] = 'your-openai-api-key'
+```
+
+**Anthropic (Claude):**
+```python
+import os
+os.environ['ANTHROPIC_API_KEY'] = 'your-anthropic-api-key'
+```
+
 4. Open the notebook:
    ```bash
    jupyter notebook dspy_learn_examples.ipynb
@@ -66,13 +75,16 @@ Click the button below to open this notebook in Google Colab:
 
 - Python 3.8+
 - DSPy
-- OpenAI API key (or other LLM provider)
+- OpenAI API key OR Anthropic API key (or other LLM provider)
 
 ## 📦 Installation
 
 ```bash
 # Install DSPy
 pip install -U dspy
+
+# For Anthropic models
+pip install anthropic
 
 # Optional: Install with MCP support
 pip install -U "dspy[mcp]"
