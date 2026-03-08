@@ -39,18 +39,15 @@ DSPy is a framework for building AI systems with language models. This notebook 
 
 ### Run in Google Colab
 
-To run this notebook in Google Colab:
+Click the button below to open this notebook in Google Colab:
 
-1. Upload `dspy_learn_examples.ipynb` to your Google Drive
-2. Right-click the file → Open with → Google Colab
-3. Update the Colab link below with your actual link:
-   
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/YOUR_DRIVE_LINK)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/duksaramio/dspy-jupyter-notes/blob/main/dspy_learn_examples.ipynb)
 
-**After uploading to Google Drive:**
-- Right-click the notebook → Share → Copy link
-- The URL will look like: `https://drive.google.com/file/d/FILE_ID/view?usp=sharing`
-- Create your Colab link: `https://colab.research.google.com/drive/FILE_ID`
+**Or manually:**
+1. Go to [Google Colab](https://colab.research.google.com)
+2. Click "GitHub" tab
+3. Enter: `https://github.com/duksaramio/dspy-jupyter-notes`
+4. Select `dspy_learn_examples.ipynb`
 
 ## 📋 Table of Contents
 
